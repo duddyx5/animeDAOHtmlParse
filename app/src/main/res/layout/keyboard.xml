@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_clear"
+                style="@style/keyboardButtonsReg"
+                android:layout_margin="3dp"
+                android:text="Clear" />
+
+            <Button
+                android:id="@+id/space_button"
+                style="@style/keyboardButtonsReg"
+                android:layout_margin="3dp"
+                android:text="Space" />
+
+            <ImageButton
+                android:id="@+id/button_delete"
+                style="@style/keyboardButtonsReg"
+                android:background="#000d0d0d"
+                android:paddingStart="30dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/delete_key" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#40ffffff"/>
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_a"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/a" />
+
+            <Button
+                android:id="@+id/button_b"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/b" />
+
+            <Button
+                android:id="@+id/button_c"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/c" />
+
+            <Button
+                android:id="@+id/button_d"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/d" />
+
+            <Button
+                android:id="@+id/button_e"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/e" />
+
+            <Button
+                android:id="@+id/button_f"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/f" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_g"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/g" />
+
+            <Button
+                android:id="@+id/button_h"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/h" />
+
+            <Button
+                android:id="@+id/button_i"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/i" />
+
+            <Button
+                android:id="@+id/button_j"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/j" />
+
+            <Button
+                android:id="@+id/button_k"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/k" />
+
+            <Button
+                android:id="@+id/button_l"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/l" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_m"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/m" />
+
+            <Button
+                android:id="@+id/button_n"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/n" />
+
+            <Button
+                android:id="@+id/button_o"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/o" />
+
+            <Button
+                android:id="@+id/button_p"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/p" />
+
+            <Button
+                android:id="@+id/button_q"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/q" />
+
+            <Button
+                android:id="@+id/button_r"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/r" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_s"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/s" />
+
+            <Button
+                android:id="@+id/button_t"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/t" />
+
+            <Button
+                android:id="@+id/button_u"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/u" />
+
+            <Button
+                android:id="@+id/button_v"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/v" />
+
+            <Button
+                android:id="@+id/button_w"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/w" />
+
+            <Button
+                android:id="@+id/button_x"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/x" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_y"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/y" />
+
+            <Button
+                android:id="@+id/button_z"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/z" />
+
+            <Button
+                android:id="@+id/button_1"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/_1" />
+
+            <Button
+                android:id="@+id/button_2"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/_2" />
+
+            <Button
+                android:id="@+id/button_3"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/_3" />
+
+            <Button
+                android:id="@+id/button_4"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/_4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_5"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/_5" />
+
+            <Button
+                android:id="@+id/button_6"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/_6" />
+
+            <Button
+                android:id="@+id/button_7"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/_7" />
+
+            <Button
+                android:id="@+id/button_8"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/_8" />
+
+            <Button
+                android:id="@+id/button_9"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/nine" />
+
+            <Button
+                android:id="@+id/button_0"
+                style="@style/keyboardButtonsReg"
+                android:text="@string/zero" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

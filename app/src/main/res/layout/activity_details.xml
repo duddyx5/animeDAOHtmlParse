@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F2F1F6AD"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="280dp"
+        android:layout_marginEnd="16dp"
+        android:layout_alignParentEnd="false"
+        android:id="@+id/image"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_toEndOf="@id/image"
+        android:layout_height="wrap_content"
+        android:textColor="#0d0d0d"
+        android:textSize="30dp"/>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:focusable="false"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"/>
+
+
+
+<!--    <fragment xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        xmlns:tools="http://schemas.android.com/tools"-->
+<!--        android:id="@+id/details_fragment"-->
+<!--        android:name="nz.co.duddyx5.animedao.VideoDetailsFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        tools:context=".DetailsActivity"-->
+<!--        tools:deviceIds="tv" />-->
+
+</RelativeLayout>
+

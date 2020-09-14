@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">AnimeDAO</string>
+    <string name="browse_title">Videos by Your Company</string>
+    <string name="related_movies">Related Videos</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+
+    <!-- keyboard -->
+
+
+    <!--suppress AndroidDomInspection -->
+
+
+    <string name="atsymbol">@</string>
+
+    <string name="co_nz">.co.nz</string>
+
+    <string name="dot">.</string>
+
+    <string name="underscore">_</string>
+
+    <string name="zero">0</string>
+
+    <string name="nine">9</string>
+
+    <string name="_8">8</string>
+
+    <string name="_7">7</string>
+
+    <string name="_6">6</string>
+
+    <string name="_5">5</string>
+
+    <string name="_4">4</string>
+
+    <string name="_3">3</string>
+
+    <string name="_2">2</string>
+
+    <string name="_1">1</string>
+
+    <string name="z">z</string>
+
+    <string name="y">y</string>
+
+    <string name="x">x</string>
+
+    <string name="w">w</string>
+
+    <string name="v">v</string>
+
+    <string name="u">u</string>
+
+    <string name="t">t</string>
+
+    <string name="s">s</string>
+
+    <string name="r">r</string>
+
+    <string name="q">q</string>
+
+    <string name="p">p</string>
+
+    <string name="o">o</string>
+
+    <string name="n">n</string>
+
+    <string name="m">m</string>
+
+    <string name="l">l</string>
+
+    <string name="k">k</string>
+
+    <string name="j">j</string>
+
+    <string name="i">i</string>
+
+    <string name="h">h</string>
+
+    <string name="g">g</string>
+
+    <string name="f">f</string>
+
+    <string name="e">e</string>
+
+    <string name="d">d</string>
+
+    <string name="c">c</string>
+
+    <string name="b">b</string>
+
+    <string name="a">a</string>
+
+    <string name="clear">clear</string>
+
+    <string name="delete_button">delete button</string>
+
+    <string name="space">space</string>
+
+    <string name="back">Back</string>
+
+    <string name="search_titles_or_genre">Search titles or genre</string>
+</resources>

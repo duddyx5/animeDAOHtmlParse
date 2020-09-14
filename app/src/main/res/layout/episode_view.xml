@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="700dp"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:background="@drawable/border_selector"
+    android:focusedByDefault="true"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/episode_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="test"
+        android:textColor="#0d0d0d"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/episode_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="test"
+        android:textColor="#4A4A4A"
+        android:alpha=".8"
+        android:textSize="15sp"/>
+
+</LinearLayout>

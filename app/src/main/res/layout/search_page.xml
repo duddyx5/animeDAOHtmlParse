@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <LinearLayout
+        android:id="@+id/linear_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/menu_items_genre"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#0d0d0d"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/back_to_ondemand_search"
+                android:layout_width="wrap_content"
+                android:text="Back"
+                android:textSize="25sp"
+                android:layout_marginStart="30dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_1"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="30dp"
+        android:background="@android:color/transparent"
+        android:cursorVisible="true"
+        android:hint="Search here"
+        android:inputType="text"
+        android:textCursorDrawable="@null"
+        android:textSize="30sp" />
+
+
+    <LinearLayout
+        android:id="@+id/linear_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_bar"
+        android:background="#000000"
+        android:orientation="horizontal">
+
+        <nz.co.duddyx5.animedao.SearchKeyBoard
+            android:id="@+id/reg_frame"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp" />
+
+
+        <LinearLayout
+            android:id="@+id/search_result_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/number_of_shows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="30dp"
+                android:text="Number of shows found "
+                android:textColor="#ffffff"
+                android:visibility="invisible" />
+
+            <fragment
+                android:name="nz.co.duddyx5.animedao.SearchResultFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/vertical_title_view"
+        android:layout_width="260dp"
+        android:layout_height="130dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp" />
+
+    <TextView
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="145dp"
+        android:text="Loading..."
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/menu_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
+
+    </FrameLayout>
+</RelativeLayout>
